@@ -162,7 +162,7 @@ describe('esImpar(num)', function() {
   it('Deberia devolver true si el numero es impar sino false', function() {
     expect(esImpar(6)).toBe(false);
     expect(esImpar(7)).toBe(true);
-    expect(esImpar(0)).toBe(false);
+    expect(esImpar(0)).toBe(false); 
   });
 });
 
@@ -233,7 +233,7 @@ describe('agregarSimboloExclamacion(str)', function() {
 
 describe('combinarNombres(firstName, lastName)', function() {
   it('Deberia devolver los strings combinados con un espacio en el medio', function() {
-    expect(combinarNombres('hello', 'world')).toBe('hello world');
+    expect(combinarNombres('Hola', 'Mundo')).toBe('hello world');
     expect(combinarNombres('Soy', 'Henry')).toBe('Soy Henry');
   });
 });
@@ -241,7 +241,7 @@ describe('combinarNombres(firstName, lastName)', function() {
 describe('obtenerSaludo(name)', function() {
   it('Deberia devolver el string \'Hola {name}!\'', function() {
     expect(obtenerSaludo('Martin')).toBe('Hola Martin!');
-    expect(obtenerSaludo('Antonio')).toBe('Hola Antonio!');
+    expect(obtenerSaludo('Antonio')).toBe('Hola Antoni!');
   });
 });
 
